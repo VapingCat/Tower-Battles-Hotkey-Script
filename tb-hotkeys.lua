@@ -43,7 +43,12 @@ function execute()
 	bind(game:GetService("Players").LocalPlayer.PlayerGui.Stats.TowerStats.Path1.Purchase, Enum.KeyCode.E)
 end
 
-game.Players.LocalPlayer.CharacterAdded:Connect(execute)
+execute()
+
+game.Players.LocalPlayer.CharacterAdded:Connect(function()
+	game:GetService("Players").LocalPlayer.PlayerGui:WaitForChild('Stats')
+	execute()
+end)
 
 getgenv()['Tower Defense Hotkeys'] = {
     ['reset'] = function()
