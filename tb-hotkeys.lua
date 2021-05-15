@@ -51,10 +51,10 @@ game.Players.LocalPlayer.CharacterAdded:Connect(function()
 end)
 
 getgenv()['Tower Defense Hotkeys'] = {
-    ['reset'] = function()
-        for _,v in pairs(connections) do
-            v:Disconnect()
+	['reset'] = function()
+		for _,v in pairs(connections) do
+			v:Disconnect()
 			connections = {}
-        end
-    end
+		end
+	end
 }
