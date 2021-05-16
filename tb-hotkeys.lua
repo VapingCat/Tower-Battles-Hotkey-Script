@@ -18,6 +18,7 @@ function initialize(bind) --// This is where you get a button and bind a hotkey.
 	bind(game:GetService("Players").LocalPlayer.PlayerGui.Stats.TowerStats.Path1.Purchase, Enum.KeyCode.E)
 end
 
+while not game:IsLoaded() or not game:GetService("CoreGui") or not game:GetService("Players").LocalPlayer or not game:GetService("Players").LocalPlayer.PlayerGui do wait() end
 if game.PlaceId ~= 45146873 then return end --// Game check
 
 warn('Tower Defense Hotkeys')
