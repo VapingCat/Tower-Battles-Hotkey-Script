@@ -1,10 +1,10 @@
--- Game Link:
--- https://www.roblox.com/games/45146873/Tower-Battles?refPageId=81b1e521-5de8-4344-b59e-4dcf6cdc365d
-
--- Tower Defense Hotkeys
--- Made By Vapin' Cat#5497
-
--- not very hard to make at all..
+--// Game Link:
+--// https://www.roblox.com/games/45146873/Tower-Battles?refPageId=81b1e521-5de8-4344-b59e-4dcf6cdc365d
+--//
+--// Tower Defense Hotkeys
+--// Made By Vapin' Cat#5497
+--//
+--// not very hard to make at all..
 
 --// Settings
 
